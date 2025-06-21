@@ -1069,3 +1069,6 @@ end
 function GAG:GetToolInHand(): Tool
     return plr.Character:FindFirstChildWhichIsA("Tool")
 end
+
+
+return GAG
