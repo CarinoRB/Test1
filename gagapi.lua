@@ -1070,5 +1070,5 @@ function GAG:GetToolInHand(): Tool
     return plr.Character:FindFirstChildWhichIsA("Tool")
 end
 
-
+getgenv().GAG = GAG
 return GAG
